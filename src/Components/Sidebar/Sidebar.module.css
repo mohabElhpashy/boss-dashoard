@@ -1,0 +1,66 @@
+.Cotainer{
+    display: flex;
+    width: 12%;
+
+}
+.Sidebar{
+    background-color: #184064;
+    color: #fff;
+    height: 100vh;
+    box-shadow: 4px 4px 4px #000;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+
+
+}
+.top_sectio{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+
+}
+.Logo{
+    font-size: 21px;
+    color: #fff;
+    width: 74px;
+    /* text-decoration: underline; */
+    letter-spacing: 15px;
+
+}
+.Bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.Link{
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.Link:hover{
+    background-color: lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    display: flex;
+    background-color: #fff;
+
+    color: #000;
+    font-weight: bold;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.5s;}
+/* .icon{
+    color: #fff;
+    font-size: 25px;
+    
+
+} */

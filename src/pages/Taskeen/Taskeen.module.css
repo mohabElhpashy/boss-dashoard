@@ -1,0 +1,53 @@
+.mainDiv{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    /* background: red; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+     margin-top: 1rem;
+
+}
+.Card{
+    width: 300px;
+    padding-top: 1rem;
+    /* border: 1px solid gray;
+    box-shadow: 5px 5px 5px grey; */
+}
+/* h1{
+    text-decoration: underline;
+    letter-spacing: 16px;
+} */
+
+.Inner_div{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 20px;
+}
+button{
+    width: 100%;
+}
+.engeeer{
+
+    background-color: #184064;
+    color: white;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 4px;
+    font-weight: 400;
+}
+
+.DivEg{
+
+padding: 5px;
+border: 1px solid  white;
+box-shadow: 5px 5px 5px grey;
+margin-bottom: 5px;
+width: 101%;
+
+}
