@@ -1,12 +1,7 @@
 import { NavLink } from "react-router-dom";
 import MyStyle from "../../Components/Sidebar/Sidebar.module.css";
 import { FaBars } from "react-icons/fa";
-import {
-  GiFarmer,
-  GiArchiveRegister,
-  GiPlantRoots,
-  GiBasket,
-} from "react-icons/gi";
+import { GiFarmer, GiArchiveRegister, GiBasket } from "react-icons/gi";
 import { BiUserPlus } from "react-icons/bi";
 import { FiLogOut } from "react-icons/fi";
 import { MdAdd } from "react-icons/md";
@@ -70,7 +65,7 @@ const Sidebar = () => {
   const [isOpen, setisOpen] = useState(true);
   const toggle = () => setisOpen(!isOpen);
   const logout = (index) => {
-    if (index == 6) {
+    if (index === 6) {
       console.log("logout");
       localStorage.clear();
       window.location.assign("/");
